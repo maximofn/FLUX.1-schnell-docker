@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  flux1-schnell:
+    container_name: flux1-schnell
+    image: maximofn/flux1-schnell:1.0.0
+    build: .
+    runtime: nvidia
+    network_mode: "host"
+    volumes:
+      - ./hub:/root/.cache/huggingface/hub
+    tty: true
+    stdin_open: true
