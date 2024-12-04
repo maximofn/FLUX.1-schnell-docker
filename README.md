@@ -2,7 +2,7 @@
 
 Dockerization of the [Hugging Face black-forest-labs/FLUX.1-schnell Space](https://huggingface.co/spaces/black-forest-labs/FLUX.1-schnell)
 
-![FLUX.1-RealismLora](https://raw.githubusercontent.com/maximofn/FLUX.1-RealismLora-docker/refs/heads/main/assets/FLUX.1%20RealismLora.png)
+![FLUX.1-schnell](https://raw.githubusercontent.com/maximofn/FLUX.1-schnell-docker/refs/heads/main/schnell.jpeg)
 
  * Space: [https://huggingface.co/spaces/black-forest-labs/FLUX.1-schnell](https://huggingface.co/spaces/black-forest-labs/FLUX.1-schnell)
 
@@ -17,7 +17,7 @@ Dockerization of the [Hugging Face black-forest-labs/FLUX.1-schnell Space](https
 You can download the image and run it
 
 ```bash
-docker pull maximofn/flux-1-realismlora:latest
+docker pull maximofn/flux-1-schnell:latest
 ./run_app.sh
 ```
 
