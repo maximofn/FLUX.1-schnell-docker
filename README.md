@@ -17,7 +17,7 @@ Dockerization of the [Hugging Face black-forest-labs/FLUX.1-schnell Space](https
 You can download the image and run it
 
 ```bash
-docker pull maximofn/flux-1-schnell:latest
+docker pull maximofn/flux1-schnell:latest
 ./run_app.sh
 ```
 
